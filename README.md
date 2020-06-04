@@ -1,6 +1,3 @@
-### Assignment Description
-
-
 ## Introduction
 
 This is an application that intends to solve the common driver’s problem of wasting time to find and secure a parking spot for their vehicle.
@@ -31,3 +28,8 @@ The application consists of several components that make it easy to the user to 
 This navigation bar consists of 3 tabs at all times (note that when the user is actively on one of the tabs, the icon of that tab will disappear from the navigation bar and the icon of the previous tab will appear). The tabs that are available are, the parking tab, the history tab, the favourites tab, and the settings tab.
 
 
+
+## Improvements
+
+As previously mentioned, this is an application that provides its users with information that guides them to finding free parking in the target area. It utilises the Google Place API to scan a targeted area to see where the user could park their car, after it returns the available places that the user may use to park. 
+The application was intended to utilise an algorithm that scans through all the available parking spots and choose the ones that are free of charge. After finding the free of charge parking spots, it would clearly display the area in which the user can park their car and it would display the number of hours the user can park there for free. Should there not be any free parking in the area it will resort to the list of parking spots returned by the API and utilise a sorting algorithm to return the closest and cheapest available parking to guide the user to it. That was however, not implemented. Remaining a challenge to implement in the future.
